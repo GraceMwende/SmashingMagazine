@@ -130,3 +130,28 @@ form.search button {
 .four {
   background-color: rgb(95, 31, 31);
 }
+.membership img {
+  float: right;
+}
+.membership {
+  background-color: rgb(0, 0, 12);
+  color: white;
+  height: 500px;
+  font-family: "Noto Serif", serif;
+  word-spacing: 5px;
+  padding: 100px;
+}
+.membership button {
+  color: white;
+  background-image: linear-gradient(rgb(144, 247, 144), rgb(4, 165, 4));
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 20px;
+}
+.membership ul {
+  list-style-type: square;
+}
+.membership li {
+  line-height: 40px;
+}
