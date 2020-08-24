@@ -238,3 +238,39 @@ form.search button {
   margin-top: 20px;
   border-radius: 50%;
 }
+.see-latest {
+  padding: 50px;
+  text-align: center;
+}
+.see-latest a {
+  color: black;
+  text-decoration: none;
+}
+.see-latest a {
+  border-bottom: 5px solid red;
+}
+.clicking {
+  background-color: rgb(84, 84, 245);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font: 15px;
+}
+.clicking a {
+  color: white;
+}
+.clicking p {
+  font-family: "Roboto", sans-serif;
+}
+.clicking h2 {
+  font: bold 30px/50px "Anton", sans-serif;
+  word-spacing: 10px;
+}
+.clicking button {
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 20px;
+  color: blue;
+  background-color: white;
+}
