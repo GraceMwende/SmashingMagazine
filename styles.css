@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(204, 19, 19);
+  font-family: "Zilla Slab", serif;
+  font-size: 20px;
+  font-weight: 100px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar a:hover {
+  background-color: rgb(153, 19, 19);
+  border: 1px solid rgb(153, 19, 19);
+  border-radius: 10px;
+  padding: 10px;
+}
+form.search input[type="text"] {
+  padding: 15px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 300px;
+  background-color: white;
+}
+form.search button {
+  color: red;
+  font-size: 20px;
+  border: none;
+  position: relative;
+  left: 40px;
+  background-color: white;
+}
+::placeholder {
+  position: relative;
+  left: 40px;
+  color: black;
+  font-family: "Zilla Slab", serif;
+  font-size: 20px;
+}
+.more-button {
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(153, 19, 19);
+  border: 1px solid rgb(153, 19, 19);
+  border-radius: 10px;
+  color: white;
+  font-family: "Zilla Slab", serif;
+  font-size: 20px;
+}
+.more img {
+  width: 20px;
+  height: 30px;
+  position: relative;
+  right: 30px;
+  top: 7px;
+  filter: opacity(0.5);
+}
+.latest-articles-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

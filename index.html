@@ -3,24 +3,34 @@
 <html>
   <head>
     <title>Smashing Magazine-For Web Designer and Developers</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
   </head>
   <body>
+    <nav class="nav-bar">
     <img src="assets/images/logo.JPG" alt="logo" />
     <a href="#">Articles</a>
     <a href="#">Guides</a>
     <a href="#">Events</a>
     <a href="#">Books</a>
     <a href="#">Membership</a>
-    <button>More</button>
-    <input type="text" placeholder="Search.." name="search" />
-    <button type="submit"><i class="fa fa-search"></i></button>
-    <h1>Don't Miss These latest articles</h1>
+    <div class="more">
+    <button class="more-button">More</button>
+    <img src="assets/images/sitted-cat.JPG" alt="sitted-cat">
+    </div>
+    <form class="search" action="">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <input type="text" placeholder="Search articles..." name="search">
+    </form>
+    </nav>
+    <h1>Don't Miss These latest<br> articles</h1>
 
     <!-- Articles Section -->
-    <article class="latest-articles">
+    <section class="latest-articles-section">
+    <article class="latest-articles-one">
       <img src="assets/images/suzanne.jpg" alt="suzzane-img" />
-      <p><cite>suzzana Scacca</cite> wrote</p>
+      <p>suzzana Scacca wrote</p>
       <h2>
         <a href="#"
           >How To Help Your Clients<br />
@@ -41,7 +51,7 @@
       ---->
     </article>
 
-    <article class="latest-articles">
+    <article class="latest-articles-two">
       <img src="assets/images/jerry.jpg" alt="Jerry-img" />
       <p><cite>Jerry Navi</cite> wrote</p>
       <h2>
@@ -65,7 +75,7 @@
       ---->
     </article>
 
-    <article class="latest-articles">
+    <article class="latest-articles-three">
       <img src="assets/images/wole.jpeg" alt="Wole oyekanmi" />
       <p><cite>Wole Oyekanmi</cite> wrote</p>
       <h2>
@@ -89,7 +99,7 @@
       ---->
     </article>
 
-    <article class="latest-articles">
+    <article class="latest-articles-four">
       <img src="assets/images/andy.jpg" alt="Andy-image" />
       <p><cite>Andrew Clarke</cite> wrote</p>
       <h2>
@@ -112,6 +122,7 @@
       </ul>
       ---->
     </article>
+    </section>
     <!-- About Smashing Membership -->
     <section>
       <img src="assets/images/cat-firechat.svg" alt="cat-firechat" />
